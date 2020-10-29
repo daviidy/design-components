@@ -36,6 +36,10 @@ p {
   z-index: 1999;
 }
 
+.dropdown-toggle::after {
+  content: none;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
@@ -128,7 +132,7 @@ i {
 
 /* main */
 
-.main-content {
+.main-content, .price {
   margin-top: 5rem;
 }
 
@@ -174,75 +178,19 @@ i {
   text-decoration: underline;
 }
 
-.previous, .next {
-  color: rgb(107, 106, 120);
-  max-width: 250px;
-  margin-top: 15px;
-  font-size: 13px;
+.section-title {
+  border-bottom: 4px solid #4D90CC;
+  padding-bottom: 10px;
+  width: 40%;
 }
 
-.next-link {
-  color: #4D90CC;
-  border-color: #4D90CC;
+.course-curriculum i {
+  font-size: 1rem;
 }
 
-.progression span {
-  font-size: 11px;
-  font-weight: 300;
-}
-
-/* curriculum */
-
-.side-menu {
-  z-index: 100;
-  margin-top: 4rem;
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
-.curriculum {
-  overflow-y: auto;
-}
-
-.lessons i {
-  font-size: 15px;
-}
-
-.lessons {
-  padding: 12px 0px;
-  font-size: 14px;
-}
-
-.single-lesson {
-  border-left: 1px solid rgba(0, 0, 0, 0.87);
-}
-
-.first {
-  margin-left: -7px;
-}
-
-.other {
-  margin-left: -7px;
-  margin-top: 17px;
-}
-
-.last {
-  margin-left: -7px;
-  margin-top: 22px;
-}
-
-#overlay {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  background: rgba(0,0,0,0.7);
-  z-index: 99;
-  display: none;
+/* price */
+.sticky-top {
+  top: 77px;
 }
 
 /* media queries */
