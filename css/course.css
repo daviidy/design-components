@@ -132,6 +132,10 @@ i {
 
 /* main */
 
+.course-characteristics i {
+  font-size: 16px;
+}
+
 .main-content, .price {
   margin-top: 5rem;
 }
