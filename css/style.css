@@ -245,6 +245,11 @@ i {
   display: none;
 }
 
+.os-hover:hover{
+  position: relative;
+  top: 15px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 599px){
