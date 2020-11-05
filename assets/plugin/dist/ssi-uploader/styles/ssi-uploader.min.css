@@ -9,7 +9,7 @@ span.exclamation23,
 span.exclamation7,
 span.trash10,
 span.trash7 {
-  background-image: url(images/sprite.png)
+  background-image: url(images/sprite.png);
 }
 
 .ssi-tooltipText {
@@ -27,11 +27,11 @@ span.trash7 {
   font-size: 14px;
   font-weight: 500;
   opacity: 1;
-  z-index: 30000
+  z-index: 30000;
 }
 
 .ssi-tooltipText.ssi-fade {
-  transition: opacity .8s
+  transition: opacity 0.8s;
 }
 
 .ssi-tooltipText.ssi-fadeOut {
@@ -39,7 +39,7 @@ span.trash7 {
 }
 
 .ssi-tooltipText.ssi-fadeIn {
-  opacity: 1
+  opacity: 1;
 }
 
 .ssi-button {
@@ -96,8 +96,8 @@ span.trash7 {
 }
 
 .ssi-button[disabled] {
-  opacity: .8;
-  pointer-events: none
+  opacity: 0.8;
+  pointer-events: none;
 }
 
 .ssi-statusLabel {
@@ -106,7 +106,7 @@ span.trash7 {
   font-size: 10px;
   color: #fff;
   font-weight: 600;
-  border-radius: 2px
+  border-radius: 2px;
 }
 
 .ssi-statusLabel.error {
@@ -121,18 +121,18 @@ span.trash7 {
   float: left;
   width: 100%;
   color: #ccc;
-  padding: 10px
+  padding: 10px;
 }
 
 .ssi-dropZonePreview {
   min-height: 300px;
   border: 2px dashed #ccc;
-  content: 'Drag n Drop Files'
+  content: 'Drag n Drop Files';
 }
 
 .ssi-removeBtn {
   margin: 5px 0;
-  padding: 0
+  padding: 0;
 }
 
 #ssi-info::after,
@@ -140,22 +140,22 @@ span.trash7 {
 .ssi-uploaderNP::after {
   content: ' ';
   display: block;
-  clear: both
+  clear: both;
 }
 
 #ssi-info #ssi-DropZoneBack {
   z-index: -1;
   float: left;
-  overflow: hidden
+  overflow: hidden;
 }
 
 #ssi-info #ssi-fileNumber {
-  float: right
+  float: right;
 }
 
 #ssi-info #ssi-fileNumber:hover {
   cursor: pointer;
-  color: #636363
+  color: #636363;
 }
 
 .ssi-uploadFiles {
@@ -170,14 +170,14 @@ span.trash7 {
   font-size: 15px;
   vertical-align: middle;
   line-height: 30px;
-  transition: height .3s;
+  transition: height 0.3s;
   background: #fff;
-  padding-right: 1px
+  padding-right: 1px;
 }
 
 span.ban7 {
   background-position: 0 -18px;
-  height: 18px
+  height: 18px;
 }
 
 span.ban10,
@@ -186,7 +186,7 @@ span.ban7w {
   background-repeat: no-repeat;
   overflow: hidden;
   display: block;
-  width: 18px
+  width: 18px;
 }
 
 span.ban7w {
@@ -198,13 +198,13 @@ span.ban7w {
 
 span.ban10 {
   background-position: 0 0;
-  height: 18px
+  height: 18px;
 }
 
 span.ban23 {
   background-position: 0 -126px;
   width: 31px;
-  height: 31px
+  height: 31px;
 }
 
 span.ban23,
@@ -213,7 +213,7 @@ span.check7,
 span.exclamation7 {
   background-repeat: no-repeat;
   overflow: hidden;
-  display: block
+  display: block;
 }
 
 span.check7 {
@@ -221,14 +221,14 @@ span.check7 {
   margin-top: 2px;
   background-position: 0 -54px;
   width: 18px;
-  height: 17px
+  height: 17px;
 }
 
 span.check23,
 span.exclamation7 {
   background-position: 0 -157px;
   width: 31px;
-  height: 31px
+  height: 31px;
 }
 
 span.exclamation7 {
@@ -237,7 +237,7 @@ span.exclamation7 {
   margin-top: 2px;
   background-color: #cf5144;
   height: 17px;
-  border-radius: 3px
+  border-radius: 3px;
 }
 
 span.exclamation23,
@@ -248,14 +248,14 @@ span.trash7 {
   overflow: hidden;
   display: block;
   width: 31px;
-  height: 31px
+  height: 31px;
 }
 
 span.trash10,
 span.trash7 {
   background-position: 0 -108px;
   width: 18px;
-  height: 18px
+  height: 18px;
 }
 
 span.trash10 {
@@ -265,12 +265,12 @@ span.trash10 {
 .ssi-dragOver .ssi-dropZone,
 .ssi-previewBox.ssi-dragOver {
   color: #ba2919;
-  border-color: #ba2919
+  border-color: #ba2919;
 }
 
 .ssi-buttonWrapper {
   float: left;
-  padding: 5px
+  padding: 5px;
 }
 
 .ssi-noPreviewMessage {
@@ -281,33 +281,33 @@ span.trash10 {
   float: right;
   width: 35px;
   height: 31px;
-  padding: 0
+  padding: 0;
 }
 
 .ssi-noPreviewMessage span {
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .ssi-noPreviewSubMessage {
   width: 15px;
   height: 15px;
-  padding: 0
+  padding: 0;
 }
 
 .ssi-totalvalue {
   float: right;
-  margin: 2px
+  margin: 2px;
 }
 
 .ssi-upImgTd {
-  position: relative
+  position: relative;
 }
 
 .ssi-upImgTd .fa-spin {
   display: inline-block;
   position: absolute;
   top: 45%;
-  left: 45%
+  left: 45%;
 }
 
 .ssi-uploadProgressNoPreview {
@@ -317,12 +317,12 @@ span.trash10 {
   width: 0;
   height: 35px;
   background: #5cb85c;
-  transition: width .3s;
-  opacity: .6
+  transition: width 0.3s;
+  opacity: 0.6;
 }
 
 .ssi-uploadNoDropZone {
-  border: 1px solid #ccc
+  border: 1px solid #ccc;
 }
 
 .ssi-uploadProgress {
@@ -332,18 +332,18 @@ span.trash10 {
   width: 0;
   height: 10px;
   background: #5cb85c;
-  transition: width .3s
+  transition: width 0.3s;
 }
 
 .ssi-uploadProgressNoPre {
   position: absolute;
   height: 19px;
   margin-top: 0;
-  opacity: .6
+  opacity: 0.6;
 }
 
 .ssi-uploaderNP {
-  position: relative
+  position: relative;
 }
 
 .ssi-uploadDetails {
@@ -352,74 +352,74 @@ span.trash10 {
   top: 37px;
   background: #fff;
   position: absolute;
-  transition: max-height .2s ease-out;
+  transition: max-height 0.2s ease-out;
   border-radius: 3px;
   overflow: hidden;
-  padding-right: 2px
+  padding-right: 2px;
 }
 
 .ssi-uploadBoxWrapper {
-  float: left
+  float: left;
 }
 
 .ssi-uploadBoxOpened {
   max-height: 200px;
   z-index: 2000;
   overflow: auto;
-  border: .1mm solid #dcdcdc;
-  transition: max-height .5s ease-out
+  border: 0.1mm solid #dcdcdc;
+  transition: max-height 0.5s ease-out;
 }
 
 table.ssi-fileList {
   font-size: 10px;
-  margin: 5px
+  margin: 5px;
 }
 
 table.ssi-fileList tr td:first-child {
-  border: .1mm solid #dcdcdc;
+  border: 0.1mm solid #dcdcdc;
   width: 89%;
-  position: relative
+  position: relative;
 }
 
 table.ssi-fileList tr td:nth-child(2) {
-  padding-left: 7px
+  padding-left: 7px;
 }
 
 table.ssi-fileList tr {
-  line-height: 18px
+  line-height: 18px;
 }
 
-table.ssi-fileList tr.ssi-space>td {
+table.ssi-fileList tr.ssi-space > td {
   border: none;
-  padding-bottom: 2px
+  padding-bottom: 2px;
 }
 
 .ssi-uploadProgress.hide {
   margin-top: 0;
   opacity: 0;
-  transition: opacity 1.3s
+  transition: opacity 1.3s;
 }
 
 .ssi-canceledProgressBar {
   width: 100% !important;
-  background: #d9534f
+  background: #d9534f;
 }
 
 .ssi-abortUpload .ban7w,
 .ssi-imgToUploadTable h2 {
-  margin: 0
+  margin: 0;
 }
 
 .ssi-hidden {
-  display: none
-}
-
-.ssi-imgToUploadTable tr:first-child td:first-child {
-  height: 126px
+  display: none;
 }
 
 .ssi-imgToUploadTable tr td {
-  width: 140px
+  width: 140px;
+}
+
+.ssi-imgToUploadTable tr:first-child td:first-child {
+  height: 126px;
 }
 
 .ssi-imgToUploadTable {
@@ -435,25 +435,25 @@ table.ssi-fileList tr.ssi-space>td {
   word-break: break-word;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto
+  hyphens: auto;
 }
 
 .ssi-imgToUpload {
   width: 140px;
-  height: 128px
+  height: 128px;
 }
 
 .ssi-btnIn {
-  float: left
+  float: left;
 }
 
 .ssi-ieCompatibilityForm,
 span.ssi-InputLabel input[type=file] {
-  display: none
+  display: none;
 }
 
 .ssi-abortUpload {
-  padding: 0
+  padding: 0;
 }
 
 .ssi-removeBtnNP {
@@ -461,7 +461,7 @@ span.ssi-InputLabel input[type=file] {
   color: #ff696d;
   font-size: 11px;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 .ssi-InputLabel.disabled,
@@ -469,26 +469,26 @@ span.ssi-InputLabel input[type=file] {
 .ssi-InputLabel.disabled:hover {
   cursor: not-allowed;
   background: #5cb85c;
-  opacity: .65
+  opacity: 0.65;
 }
 
 .ssi-check {
-  color: #005900
+  color: #005900;
 }
 
 .ssi-boxHover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .ssi-upI.imgTd {
-  position: relative
+  position: relative;
 }
 
 .document-item,
 .document-item::before {
   position: absolute;
   width: 69px;
-  height: 74px
+  height: 74px;
 }
 
 .document-item {
@@ -497,14 +497,14 @@ span.ssi-InputLabel input[type=file] {
   transform: translate(-50%, -50%);
   background: inherit;
   top: 50%;
-  left: 50%
+  left: 50%;
 }
 
 .document-item::before {
   left: 0;
   top: -7px;
   content: '';
-  border: solid 2px #920035
+  border: solid 2px #920035;
 }
 
 .document-item::after {
@@ -519,7 +519,7 @@ span.ssi-InputLabel input[type=file] {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: 9px
+  top: 9px;
 }
 
 .document-item .fileCorner {
@@ -530,7 +530,7 @@ span.ssi-InputLabel input[type=file] {
   border-color: #fff transparent transparent #920035;
   position: absolute;
   top: -7px;
-  left: 61px
+  left: 61px;
 }
 
 /*# sourceMappingURL=ssi-uploader.min.css.map */
