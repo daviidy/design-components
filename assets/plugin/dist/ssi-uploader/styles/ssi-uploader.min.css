@@ -375,16 +375,15 @@ table.ssi-fileList {
   margin: 5px;
 }
 
+.ssi-imgToUploadTable tr td {
+  width: 140px;
+}
+
 table.ssi-fileList tr td:first-child {
   border: 0.1mm solid #dcdcdc;
   width: 89%;
   position: relative;
 }
-
-.ssi-imgToUploadTable tr td {
-  width: 140px;
-}
-
 
 table.ssi-fileList tr td:nth-child(2) {
   padding-left: 7px;
