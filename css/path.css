@@ -56,7 +56,7 @@ iframe {
 
 a:hover {
   text-decoration: none;
-  color: #4D90CC;
+  color: #4d90cc;
 }
 
 .pointer {
@@ -64,11 +64,11 @@ a:hover {
 }
 
 .blue-oschool {
-  color: #4D90CC;
+  color: #4d90cc;
 }
 
 .bg-oschool {
-  background-color: #4D90CC;
+  background-color: #4d90cc;
 }
 
 .green {
@@ -88,7 +88,8 @@ h2 {
   font-size: 30px;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-size: 24px;
 }
 
@@ -102,7 +103,8 @@ h6 {
 }
 
 /* menu */
-.logo-short, .user-avatar {
+.logo-short,
+.user-avatar {
   width: 13%;
 }
 
@@ -129,14 +131,14 @@ i {
 }
 
 /* main */
-.main-content, .price {
+.main-content,
+.price {
   margin-top: 5rem;
 }
 
 .summary ul li a::before {
   content: "✅";
   color: rgb(136, 135, 255);
-  margin-right: 10px;
   display: inline-block;
   margin-right: 0.2rem;
 }
@@ -167,8 +169,15 @@ i {
 }
 
 .lecture-content a {
-  color: #4D90CC;
+  color: #4d90cc;
 }
+
+
+.module a {
+  border-color: #4d90cc;
+  color: #4d90cc;
+}
+
 
 .lecture-content a:hover {
   color: red;
@@ -176,7 +185,7 @@ i {
 }
 
 .section-title {
-  border-bottom: 4px solid #4D90CC;
+  border-bottom: 4px solid #4d90cc;
   padding-bottom: 10px;
   width: 40%;
 }
@@ -192,11 +201,6 @@ i {
 .module:hover {
   position: relative;
   bottom: 10px;
-}
-
-.module a {
-  border-color: #4D90CC;
-  color: #4D90CC;
 }
 
 /* price */

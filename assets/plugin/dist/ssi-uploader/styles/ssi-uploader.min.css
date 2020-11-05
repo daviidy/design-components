@@ -1,4 +1,14 @@
-.icon, span.ban10, span.ban23, span.ban7, span.ban7w, span.check23, span.check7, span.exclamation23, span.exclamation7, span.trash10, span.trash7 {
+.icon,
+span.ban10,
+span.ban23,
+span.ban7,
+span.ban7w,
+span.check23,
+span.check7,
+span.exclamation23,
+span.exclamation7,
+span.trash10,
+span.trash7 {
   background-image: url(images/sprite.png)
 }
 
@@ -25,7 +35,7 @@
 }
 
 .ssi-tooltipText.ssi-fadeOut {
-  opacity: 0
+  opacity: 0;
 }
 
 .ssi-tooltipText.ssi-fadeIn {
@@ -33,7 +43,7 @@
 }
 
 .ssi-button {
-  background-color: #6aace6!important;
+  background-color: #6aace6 !important;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -125,7 +135,9 @@
   padding: 0
 }
 
-#ssi-info::after, .ssi-uploader::after, .ssi-uploaderNP::after {
+#ssi-info::after,
+.ssi-uploader::after,
+.ssi-uploaderNP::after {
   content: ' ';
   display: block;
   clear: both
@@ -168,7 +180,9 @@ span.ban7 {
   height: 18px
 }
 
-span.ban10, span.ban7, span.ban7w {
+span.ban10,
+span.ban7,
+span.ban7w {
   background-repeat: no-repeat;
   overflow: hidden;
   display: block;
@@ -193,7 +207,10 @@ span.ban23 {
   height: 31px
 }
 
-span.ban23, span.check23, span.check7, span.exclamation7 {
+span.ban23,
+span.check23,
+span.check7,
+span.exclamation7 {
   background-repeat: no-repeat;
   overflow: hidden;
   display: block
@@ -207,7 +224,8 @@ span.check7 {
   height: 17px
 }
 
-span.check23, span.exclamation7 {
+span.check23,
+span.exclamation7 {
   background-position: 0 -157px;
   width: 31px;
   height: 31px
@@ -222,7 +240,9 @@ span.exclamation7 {
   border-radius: 3px
 }
 
-span.exclamation23, span.trash10, span.trash7 {
+span.exclamation23,
+span.trash10,
+span.trash7 {
   background-position: 0 -188px;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -231,7 +251,8 @@ span.exclamation23, span.trash10, span.trash7 {
   height: 31px
 }
 
-span.trash10, span.trash7 {
+span.trash10,
+span.trash7 {
   background-position: 0 -108px;
   width: 18px;
   height: 18px
@@ -241,7 +262,8 @@ span.trash10 {
   background-position: 0 -90px
 }
 
-.ssi-dragOver .ssi-dropZone, .ssi-previewBox.ssi-dragOver {
+.ssi-dragOver .ssi-dropZone,
+.ssi-previewBox.ssi-dragOver {
   color: #ba2919;
   border-color: #ba2919
 }
@@ -383,7 +405,8 @@ table.ssi-fileList tr.ssi-space>td {
   background: #d9534f
 }
 
-.ssi-abortUpload .ban7w, .ssi-imgToUploadTable h2 {
+.ssi-abortUpload .ban7w,
+.ssi-imgToUploadTable h2 {
   margin: 0
 }
 
@@ -424,7 +447,8 @@ table.ssi-fileList tr.ssi-space>td {
   float: left
 }
 
-.ssi-ieCompatibilityForm, span.ssi-InputLabel input[type=file] {
+.ssi-ieCompatibilityForm,
+span.ssi-InputLabel input[type=file] {
   display: none
 }
 
@@ -440,7 +464,9 @@ table.ssi-fileList tr.ssi-space>td {
   padding: 0
 }
 
-.ssi-InputLabel.disabled, .ssi-InputLabel.disabled:active, .ssi-InputLabel.disabled:hover {
+.ssi-InputLabel.disabled,
+.ssi-InputLabel.disabled:active,
+.ssi-InputLabel.disabled:hover {
   cursor: not-allowed;
   background: #5cb85c;
   opacity: .65
@@ -458,7 +484,8 @@ table.ssi-fileList tr.ssi-space>td {
   position: relative
 }
 
-.document-item, .document-item::before {
+.document-item,
+.document-item::before {
   position: absolute;
   width: 69px;
   height: 74px

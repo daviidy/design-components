@@ -52,7 +52,7 @@ iframe {
 
 a:hover {
   text-decoration: none;
-  color: #4D90CC;
+  color: #4d90cc;
 }
 
 .pointer {
@@ -60,11 +60,11 @@ a:hover {
 }
 
 .blue-oschool {
-  color: #4D90CC;
+  color: #4d90cc;
 }
 
 .bg-oschool {
-  background-color: #4D90CC;
+  background-color: #4d90cc;
 }
 
 .green {
@@ -98,7 +98,8 @@ h6 {
 }
 
 /* menu */
-.logo-short, .user-avatar {
+.logo-short,
+.user-avatar {
   width: 13%;
 }
 
@@ -132,7 +133,6 @@ i {
 .summary ul li a::before {
   content: "✅";
   color: rgb(136, 135, 255);
-  margin-right: 10px;
   display: inline-block;
   margin-right: 0.2rem;
 }
@@ -163,7 +163,7 @@ i {
 }
 
 .lecture-content a {
-  color: #4D90CC;
+  color: #4d90cc;
 }
 
 .lecture-content a:hover {
@@ -171,7 +171,8 @@ i {
   text-decoration: underline;
 }
 
-.previous, .next {
+.previous,
+.next {
   color: rgb(107, 106, 120);
   max-width: 250px;
   margin-top: 15px;
@@ -179,8 +180,8 @@ i {
 }
 
 .next-link {
-  color: #4D90CC;
-  border-color: #4D90CC;
+  color: #4d90cc;
+  border-color: #4d90cc;
 }
 
 .progression span {
@@ -208,7 +209,7 @@ i {
 }
 
 .lessons {
-  padding: 12px 0px;
+  padding: 12px 0;
   font-size: 14px;
 }
 
@@ -234,8 +235,8 @@ i {
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background: rgba(0, 0, 0, 0.7);
   z-index: 99;
   display: none;
