@@ -354,7 +354,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="p-4 text-center">
-              <a href="#" class="bg-oschool p-3 rounded-pill text-decoration-none text-white" data-toggle="modal" data-target="#form">Envoyer mes travaux</a>
+              <a href="#" class="bg-oschool p-3 rounded-pill text-decoration-none text-white" data-toggle="modal" data-target="#projectForm">Envoyer mes travaux</a>
             </div>
           </div>
         </div>
@@ -401,7 +401,7 @@
     </div>
   </main>
   <!--POPUP ENVOIE DES PROJETS-->
-  <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="projectForm" tabindex="-1" role="dialog" aria-labelledby="projectFormLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class=" border-bottom-0 modal-header" style="background-image: url('./assets/images/resource_icon.png')">
@@ -409,7 +409,7 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <form action="" method="post">
+        <form method="post">
           <div class="modal-body">
             <div class="container">
               <div class="">
@@ -431,16 +431,16 @@
                 <span class="ssi-InputLabel">
                   <input type="file" multiple id="ssi-upload" class="ssi-uploadInput">
                 </span>
-                <button id="ssi-abortBtn" class="ssi-button error ssi-cancelAll ssi-hidden"><span class="inBtn">Abort </span></button>
-                <button id="ssi-uploadBtn" class="ssi-button success ssi-hidden"><span class="ssi-btnIn">Upload&nbsp;</span>
-                  <div id="ssi-up_loading" class="ssi-btnIn"></div>
+                <button id="ssi-abortBtn" type="button" class="ssi-button error ssi-cancelAll ssi-hidden"><span class="inBtn">Abort </span></button>
+                <button id="ssi-uploadBtn" type="button" class="ssi-button success ssi-hidden"><span class="ssi-btnIn">Upload&nbsp;</span>
+                  <div id="ssi-up_loading" type="button" class="ssi-btnIn"></div>
                 </button>
-                <button id="ssi-clearBtn" class="ssi-hidden ssi-button info">Clear</button>
+                <button id="ssi-clearBtn" type="button" class="ssi-hidden ssi-button info">Clear</button>
               </div>
             </div>
-
+            <!--END PLUGIN evoyer des travaux-->
             <div class="modal-footer border-top-0 d-flex justify-content-center">
-              <button type="submit" class="btn bg-oschool ">Soumettre mon projet</button>
+              <button type="submit" class="btn bg-oschool text-white">Soumettre mon projet</button>
             </div>
           </div>
         </form>
@@ -479,7 +479,7 @@
         url: 'upload.php',
         dropZone: false,
         locale: 'fr',
-        allowed: ['jpg', 'jpeg', 'png', 'bmp', 'gif', 'pdf'],
+        allowed: ['jpg', 'jpeg', 'png', 'bmp', 'gif', 'pdf', 'zip'],
 
       });
 

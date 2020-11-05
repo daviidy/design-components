@@ -33,6 +33,7 @@
 }
 
 .ssi-button {
+  background-color: #6aace6!important;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -43,7 +44,7 @@
   padding: 6px;
   margin: 0 0 0 2px;
   border-radius: 3px;
-  color: #f5f5f5
+  color: #f5f5f5;
 }
 
 .ssi-button.error {
@@ -59,7 +60,7 @@
 }
 
 .ssi-button.info {
-  background: #006cbc
+  background: #006cbc;
   padding: 15px;
 }
 
