@@ -193,7 +193,7 @@ span.ban7w {
   background-color: #cf5144;
   margin-top: 2px;
   background-position: 0 -36px;
-  height: 17px
+  height: 17px;
 }
 
 span.ban10 {
@@ -259,7 +259,7 @@ span.trash7 {
 }
 
 span.trash10 {
-  background-position: 0 -90px
+  background-position: 0 -90px;
 }
 
 .ssi-dragOver .ssi-dropZone,
@@ -381,6 +381,11 @@ table.ssi-fileList tr td:first-child {
   position: relative;
 }
 
+.ssi-imgToUploadTable tr td {
+  width: 140px;
+}
+
+
 table.ssi-fileList tr td:nth-child(2) {
   padding-left: 7px;
 }
@@ -412,10 +417,6 @@ table.ssi-fileList tr.ssi-space > td {
 
 .ssi-hidden {
   display: none;
-}
-
-.ssi-imgToUploadTable tr td {
-  width: 140px;
 }
 
 .ssi-imgToUploadTable tr:first-child td:first-child {
