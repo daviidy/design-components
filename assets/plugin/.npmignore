@@ -1,8 +1,7 @@
-.git
-.github
-.DS_Store
-.idea
-composer.json
+node_modules
+bower_components
+src/
+gulpfile.js
+.bowerrc
 bower.json
-nuget
-examples
+.gitignore

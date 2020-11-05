@@ -9,7 +9,6 @@ An awesome jquery uploader.
 
 [See documentation](http://ssbeefeater.github.io/#ssi-uploader/documentation)
 
-[Changelog](https://github.com/ssbeefeater/ssi-uploader/blob/master/CHANGELOG.md)
 
 ---
 
@@ -20,7 +19,10 @@ Install with [npm](https://www.npmjs.com/)
 ```sh
 npm install ssi-uploader
 ```
-
+```javascript
+require('ssi-uploader');
+# ('#myInput').ssi_uploader({url:'uploadAction'})
+```
 Install with [bower](http://bower.io/)
 
 ```sh
@@ -29,8 +31,8 @@ bower install ssi-uploader
 
 or just download and include the files.
 ```html
-<link rel="stylesheet" href="dist/ssi-uploader/styles/ssi-uploader.css"/> 
-<script src="dist/ssi-uploader/js/ssi-uploader.min.js"></script>
+<link rel="stylesheet" href="ssi-uploader/styles/ssi-uploader.css"/> 
+<script src="ssi-uploader/js/ssi-uploader.min.js"></script>
 ```
 ---
 
