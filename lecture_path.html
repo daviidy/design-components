@@ -5,7 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Lecture</title>
-  <link rel="icon" href="">
+  <!--link rel="icon" href=""-->
+  <!--END PLUGIN -->
+  <link href="./assets/plugin/dist/ssi-uploader/styles/ssi-uploader.min.css" rel="stylesheet">
+
+  <!--END PLUGIN -->
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
@@ -172,6 +179,38 @@
       <!--end progression-->
       <!--main content-->
       <div class="col-md-9 main-content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="alert alert-success" role="alert">
+              Lesson terminée
+            </div>
+          </div>
+        </div>
+        <!--Ressource téléchargeable-->
+        <div class="row mt-3 p-3">
+          <div class=" col-md-12">
+            <!--Contenu Ressource téléchargeable-->
+            <div class="row bg-dark rounded mt-3">
+              <div class="col-md-2 d-md-block d-none">
+                <div class="p-1 p-md-3">
+                  <img src="./assets/images/resource_icon.png" alt="" class="mx-auto w-75 img-fluid">
+                </div>
+              </div>
+              <div class="col-md-7 flex-grow p-md-3">
+                <div class="p-1 p-md-3">
+                  <p class="text-white font-bold m-3">Bienvenue dans votre parcours.pdf</p>
+                </div>
+              </div>
+              <div class="col-md-3 ">
+                <div class="p-1 p-md-3">
+                  <a href="#" class="btn bg-oschool rounded-pill m-3 text-white">Télécharger</a>
+                </div>
+              </div>
+            </div>
+            <!--End Contenu Ressource téléchargeable-->
+          </div>
+        </div>
+        <!--end Ressource téléchargeable-->
         <div class="row mt-3">
           <div class="col-12">
             <h1>Nothingness and the Truth</h1>
@@ -179,7 +218,7 @@
         </div>
         <div class="row mt-3">
           <div class="col-12">
-            <p>An introduction to Nil, True and False objects.</h1>
+            <p>An introduction to Nil, True and False objects.</p>
           </div>
           <div class="col-12 mt-4">
             <a href="#" class="p-2 bg-oschool text-white rounded">
@@ -218,7 +257,7 @@
               “nothing”.
             </p>
 
-            <iframe src="https://www.youtube-nocookie.com/embed/HcGbgNn5vBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/HcGbgNn5vBQ" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h2>Nil</h2>
             <p>
@@ -256,62 +295,70 @@
           </div>
         </div>
         <div class="row p-4">
-          <div class="col-md-4 mb-3 ">
+          <div class="col-md-4 ">
             <div class="shadow-sm p-0">
               <div class="">
                 <img src="https://oschoolelearning.com/images/divers/user.jpg" alt="" class="img-fluid">
               </div>
-                <div class="d-flex">
-                  <span class="p-3">
-                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-                      <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
-                    </svg>
-                  </span>
-                  <div class="p-3">
-                    <p class="h6">Solve me first</p>
-                  </div>
+              <div class="d-flex">
+                <span class="p-3">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <div class="p-3">
+                  <p class="h6">Solve me first</p>
                 </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4">
             <div class="shadow-sm p-0">
               <div class="">
                 <img src="https://oschoolelearning.com/images/divers/user.jpg" alt="" class="img-fluid">
               </div>
-                <div class="d-flex">
-                  <span class="p-3">
-                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-                      <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
-                    </svg>
-                  </span>
-                  <div class="p-3">
-                    <p class="h6">Solve me first</p>
-                  </div>
+              <div class="d-flex">
+                <span class="p-3">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <div class="p-3">
+                  <p class="h6">Solve me first</p>
                 </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4">
             <div class="shadow-sm p-0">
               <div class="">
                 <img src="https://oschoolelearning.com/images/divers/user.jpg" alt="" class="img-fluid">
               </div>
-                <div class="d-flex">
-                  <span class="p-3">
-                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-                      <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
-                    </svg>
-                  </span>
-                  <div class="p-3">
-                    <p class="h6">Solve me first</p>
-                  </div>
+              <div class="d-flex">
+                <span class="p-3">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <div class="p-3">
+                  <p class="h6">Solve me first</p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-
+        <!--Boutton evoyer des travaux-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="p-4 text-center">
+              <a href="#" class="bg-oschool p-3 rounded-pill text-decoration-none text-white" data-toggle="modal" data-target="#projectForm">Envoyer mes travaux</a>
+            </div>
+          </div>
+        </div>
+        <!--Fin Boutton evoyer des travaux-->
         <div class="lecture-actions row mt-5">
           <div class="col-6">
             <a href="#" class="border p-2 font-weight-bold rounded">
@@ -353,6 +400,51 @@
       <div id="overlay"></div>
     </div>
   </main>
+  <!--POPUP ENVOIE DES PROJETS-->
+  <div class="modal fade" id="projectForm" tabindex="-1"  aria-labelledby="projectForm" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class=" border-bottom-0 modal-header" style="background-image: url('./assets/images/resource_icon.png')">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form method="post">
+          <div class="modal-body">
+            <div class="container">
+              <div class="">
+
+              </div>
+              <div class="">
+                <p class="h5 p-3 text-center">Soumission de projet</p>
+              </div>
+            </div>
+            <div class="input-group mb-3 p-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">https//</span>
+              </div>
+              <input type="url" class="form-control" id="url" aria-describedby="basic-addon3" placeholder="copier les liens de votre projet" data-theme="fas">
+            </div>
+            <!--PLUGIN evoyer des travaux-->
+            <div class="ssi-uploader">
+              <div class="ssi-buttonWrapper">
+                <span class="ssi-InputLabel">
+                  <input type="file" multiple id="ssi-upload" class="ssi-uploadInput">
+                </span>
+                <button id="ssi-abortBtn" type="button" class="ssi-button error ssi-cancelAll ssi-hidden"><span class="inBtn">Abort </span></button>
+                <button id="ssi-uploadBtn" type="button" class="ssi-button success ssi-hidden"><span class="ssi-btnIn">Upload&nbsp;</span><span id="ssi-up_loading" class="ssi-btnIn"></span></button>
+                <button id="ssi-clearBtn" type="button" class="ssi-hidden ssi-button info">Clear</button>
+              </div>
+            </div>
+            <!--END PLUGIN evoyer des travaux-->
+            <div class="modal-footer border-top-0 d-flex justify-content-center">
+              <button type="submit" class="btn bg-oschool text-white">Soumettre mon projet</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
   <script>
@@ -378,6 +470,24 @@
       }
     });
   </script>
+
+  <script>
+    $(document).ready(function() {
+      $('#ssi-upload').ssi_uploader({
+        url: 'upload.php',
+        dropZone: false,
+        locale: 'fr',
+        allowed: ['jpg', 'jpeg', 'png', 'bmp', 'gif', 'pdf', 'zip'],
+
+      });
+
+    });
+  </script>
+
+
+  <script src="./assets/plugin/dist/ssi-uploader/js/ssi-uploader.min.js"></script>
+
 </body>
+
 
 </html>

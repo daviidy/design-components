@@ -14,7 +14,6 @@ hue-5-2: #be5046
 hue-6:   #d19a66
 hue-6-2: #e6c07b
 */
-
 .hljs {
   display: block;
   overflow-x: auto;
@@ -55,6 +54,15 @@ hue-6-2: #e6c07b
   color: #98c379;
 }
 
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee;
+}
+
 .hljs-built_in,
 .hljs-class .hljs-title {
   color: #e6c07b;
@@ -69,15 +77,6 @@ hue-6-2: #e6c07b
 .hljs-selector-pseudo,
 .hljs-number {
   color: #d19a66;
-}
-
-.hljs-symbol,
-.hljs-bullet,
-.hljs-link,
-.hljs-meta,
-.hljs-selector-id,
-.hljs-title {
-  color: #61aeee;
 }
 
 .hljs-emphasis {
