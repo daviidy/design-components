@@ -302,7 +302,83 @@
             </p>
           </div>
         </div>
+        <div class="row">
+          <div class="pt-3 col-md-12">
+            <div class="border rounded-lg">
+              <form class="pb-2" action="index.html" method="post">
+                <!--QUIZ-QUESTION -->
+                <div class="p-4">
+                  <div class="d-flex">
+                    <div class="bg-dark text-white p-3 rounded-lg shadow h-25">
+                      <span class="p-2">1</span>
+                    </div>
+                    <div class="">
+                      <p class="p-3">What will be the output of:</p>
+                      <pre>
+                          <code class="text-rigt">
+                            dictionary = { :one => "eins", :two => "zwei", :three => "drei" }
+                            p dictionary[:one]
+                          </code>
+                        </pre>
 
+                    </div>
+                  </div>
+
+                </div>
+                <!--END QUIZ-QUESTION -->
+                <!--QUIZ REPONSE-->
+                <div class="pb-3">
+                  <div class="custom-control custom-radio px-5 py-4 border-bottom border-top">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                    <label class="custom-control-label" for="customRadio"><strong class="font-weight-bold">A)</strong> Oui</label>
+                  </div>
+                  <div class="custom-control custom-radio px-5 py-4 border-bottom border-top pb-3">
+                    <input type="radio" class="custom-control-input" id="customRadio2" name="example1" value="customEx">
+                    <label class="custom-control-label" for="customRadio2"><strong class="font-weight-bold">B)</strong> Non</label>
+                  </div>
+                </div>
+                </form>
+                <!--QUIZ 2-->
+                <form class="" action="index.html" method="post">
+                  <!--QUIZ-QUESTION -->
+                  <div class="p-4">
+                    <div class="d-flex">
+                      <div class="bg-dark text-white p-3 rounded-lg shadow h-25">
+                        <span class="p-2">2</span>
+                      </div>
+                      <div class="">
+                        <p class="p-3">What will be the output of:</p>
+                        <pre>
+                            <code class="text-rigt">
+                              dictionary = { :one => "eins", :two => "zwei", :three => "drei" }
+                              p dictionary[:one]
+                            </code>
+                          </pre>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--END QUIZ-QUESTION -->
+                  <!--QUIZ REPONSE-->
+                  <div class="custom-control custom-radio px-5 py-4 border-bottom border-top">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                    <label class="custom-control-label" for="customRadio"><strong class="font-weight-bold">A)</strong> Oui</label>
+                  </div>
+                  <div class="custom-control custom-radio px-5 py-4 border-bottom border-top">
+                    <input type="radio" class="custom-control-input" id="customRadio2" name="example1" value="customEx">
+                    <label class="custom-control-label" for="customRadio2"><strong class="font-weight-bold">B)</strong> Non</label>
+                  </div>
+                  </form>
+
+                  <div class="bg-light">
+                    <div class="p-4 text-center">
+                      <a href="#" class="btn bg-transparent border btn-md active" role="button" aria-pressed="true">Vérifiez votre réponse</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
         <div class="lecture-actions row mt-5">
           <div class="col-6">
             <a href="#" class="border p-2 font-weight-bold rounded">
@@ -456,11 +532,11 @@
     hljs.initHighlightingOnLoad();
   </script>
   <!--COPYRIGTH SCRIPT-->
-      <script type="text/javascript">
-          var date = new Date();
-          var annee = date.getFullYear();
-          document.getElementById('year').innerHTML = annee;
-      </script>
+  <script type="text/javascript">
+    var date = new Date();
+    var annee = date.getFullYear();
+    document.getElementById('year').innerHTML = annee;
+  </script>
 
   <script>
     $('.hamburger').click(function() {
