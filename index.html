@@ -308,19 +308,19 @@
               <form class="pb-2" action="index.html" method="post">
                 <!--QUIZ-QUESTION -->
                 <div class="p-4">
-                  <div class="d-flex">
+                  <div class="d-md-flex">
                     <div class="bg-dark text-white p-3 rounded-lg shadow h-25">
                       <span class="p-2">1</span>
                     </div>
                     <div class="">
-                      <p class="p-3">What will be the output of:</p>
-                      <pre>
-                          <code class="text-rigt">
-                            dictionary = { :one => "eins", :two => "zwei", :three => "drei" }
-                            p dictionary[:one]
+                      <p class="p-3">What will be the output of What will be the output of:</p>
+                      <div class="p-3">
+                        <pre>
+                          <code>&lt;p&gt;Sample text here...&lt;/p&gt;
+                          &lt;p&gt;And another line of sample text here...&lt;/p&gt;
                           </code>
                         </pre>
-
+                      </div>
                     </div>
                   </div>
 
@@ -342,19 +342,19 @@
                 <form class="" action="index.html" method="post">
                   <!--QUIZ-QUESTION -->
                   <div class="p-4">
-                    <div class="d-flex">
+                    <div class="d-md-flex">
                       <div class="bg-dark text-white p-3 rounded-lg shadow h-25">
                         <span class="p-2">2</span>
                       </div>
                       <div class="">
                         <p class="p-3">What will be the output of:</p>
-                        <pre>
-                            <code class="text-rigt">
-                              dictionary = { :one => "eins", :two => "zwei", :three => "drei" }
-                              p dictionary[:one]
+                        <div class="p-3">
+                          <pre>
+                            <code>&lt;p&gt;Sample text here...&lt;/p&gt;
+                            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
                             </code>
                           </pre>
-
+                        </div>
                       </div>
                     </div>
 
@@ -372,10 +372,55 @@
                   </form>
 
                   <div class="bg-light">
-                    <div class="p-4 text-center">
+                    <div class="p-4 text-center" id="viewAnswer">
                       <a href="#" class="btn bg-transparent border btn-md active" role="button" aria-pressed="true">Vérifiez votre réponse</a>
                     </div>
                   </div>
+
+                  <!--VOIR LES RESULTAT-->
+                  <div class="mt-5 d-none"id="verifyAnswer">
+                    <div class="d-flex p-4">
+                      <hr class="w-25 mr-0">
+                      <p class="border bg-light w-md-25 h-md-25 p-3 text-center rounded-lg">RECAPITULATION</p>
+                      <hr class="w-25 ml-0">
+                    </div>
+                    <div class="row mt-3 p-1 p-md-5">
+                      <div class=" col-md-6 p-3">
+                        <div class="p-3">
+                          <div class="border border-success rounded-lg p-3 text-success font-weight-bold">
+                            <p class="d-inline">Correct</p>
+                            <span class="float-right d-inline">0</span>
+                          </div>
+                        </div>
+                        <div class="p-3">
+                          <div class="border border-danger rounded-lg p-3 text-danger font-weight-bold">
+                            <p class="d-inline">Incorrect</p>
+                            <span class="float-right d-inline">0</span>
+                          </div>
+                        </div>
+                        <div class="p-3">
+                          <div class="border border-secondary rounded-lg p-3 text-secondary font-weight-bold">
+                            <p class="d-inline">Sans réponse</p>
+                            <span class="float-right d-inline">0</span>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-md-6">
+                        <img src="./assets/images/reponse.png" width="500" alt="" class="img-fluid p-3">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="h5 p-3 ont-weight-light">On dirait que vous avez sauté quelques questions. Voulez-vous essayer à nouveau? Reprendre le quiz Retour</p>
+                      </div>
+                    </div>
+                    <div class="p-4 text-center bg-light">
+                      <a href="#" class="btn bg-transparent border btn-md active" role="button" aria-pressed="true" id="restartQuiz">Reprendre le quiz</a>
+                    </div>
+                  </div>
+                  <!-- FIN VOIR LES RESULTAT-->
+
             </div>
           </div>
         </div>
@@ -555,6 +600,19 @@
         $('main').toggleClass('container');
       }
     });
+  </script>
+  <script>
+      $(document).ready(function(){
+        $("#viewAnswer").click(function(){
+          $(this).addClass("d-none");
+          $("#verifyAnswer").removeClass("d-none")
+        });
+
+        $("#restartQuiz").click(function(){
+          $("#verifyAnswer").addClass("d-none");
+          $("#viewAnswer").removeClass("d-none")
+        });
+      });
   </script>
 </body>
 
