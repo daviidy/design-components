@@ -84,7 +84,8 @@ h2 {
   font-size: 30px;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-size: 24px;
 }
 
@@ -133,7 +134,6 @@ i {
 .summary ul li a::before {
   content: "✅";
   color: rgb(136, 135, 255);
-  margin-right: 10px;
   display: inline-block;
   margin-right: 0.2rem;
 }
