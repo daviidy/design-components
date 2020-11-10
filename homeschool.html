@@ -25,8 +25,8 @@
 <body>
   <div class="main-contente">
     <header>
-      <nav class="navbar navbar-expand-sm bg-md-transparent bg-sm-white w-100 position-absolute p-md-4">
-        <ul class="navbar-nav flex-row align-items-center text-white">
+      <nav class="navbar navbar-expand-sm bg-white">
+        <ul class="navbar-nav flex-row align-items-center">
           <li class="nav-item ml-3">
             <img class="logo-short img-fluid" src="./assets/images/logo-os-noir.png" alt="Logo">
             <img class="logo img-fluid" src="./assets/images/logo-oschool-noir.png" alt="">
@@ -189,7 +189,7 @@
           <div class="row p-5">
             <div class=" col-md-2 d-md-block d-none"></div>
             <div class=" col-md-8">
-              <div class="row bg-light p-4 rounded-lg">
+              <div class="row bg-light p-4 rounded-lg shadow mt-3">
                 <div class="col-md-3 text-center p-0">
                   <div class="h1 font-weight-bold bg-oschool text-white rounded-circle event-date-rounded mb-2 mx-auto">
                     05
@@ -218,7 +218,6 @@
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
             <div class=" col-md-2 d-md-block d-none"></div>
@@ -352,20 +351,6 @@
     var date = new Date();
     var annee = date.getFullYear();
     document.getElementById('year').innerHTML = annee;
-  </script>
-  <script>
-    $(document).ready(function() {
-      $(window).bind('scroll', function() {
-        var navHeight = $(window).height() - 20;
-        if ($(window).scrollTop() > navHeight) {
-          $('nav').addClass('fixed');
-          $('nav ul').addClass('fixed-text');
-        } else {
-          $('nav').removeClass('fixed');
-          $('nav ul').removeClass('fixed-text');
-        }
-      });
-    });
   </script>
 </body>
 
