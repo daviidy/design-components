@@ -1,0 +1,123 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-oschool {
+  background-color: #4d90cc!important;
+}
+
+#btnActive a {
+  font-size: 20px;
+}
+.list-group .list-group-item a{
+  color: #6c757d;
+}
+
+.side-menu {
+  z-index: 100;
+  margin-top: 4rem;
+  position: sticky!important;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  height: 100vh;
+  margin-top: 0!important;
+}
+
+
+.list-group .list-group-item a span i{
+  font-size: 20px;
+}
+
+.os-hover:hover {
+  position: relative;
+  top: 15px;
+}
+.course-border {
+  border-radius: 30px;
+}
+
+.course-border:hover {
+  border-bottom: 7px solid #4d90cc !important;
+}
+
+.event-date-rounded {
+  height: 85px;
+  width: 85px;
+  padding: 15px;
+}
+
+.bg-img-course img {
+  border-radius: 20px;
+  height: 170px;
+}
+
+.bg-course-img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.course-border, .course-border-img {
+    border-radius: 30px;
+}
+
+.bg-page {
+  background-color: #f5f6f7!important;
+}
+
+.card-header:first-child {
+    border-radius: calc(0.4rem - 1px) calc(0.4rem - 1px) 0 0;
+}
+
+.btn-primary-inverted {
+    color: #BF9000!important;
+    background-color: #f2e9cc!important;
+    border-color: transparent!important;
+}
+
+.btn-primary-inverted:hover {
+    color: #BF9000!important;
+    background-color: #eadcae!important;
+    border-color: transparent!important;
+}
+
+.box-session {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .box-session {
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
