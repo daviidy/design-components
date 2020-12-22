@@ -114,10 +114,55 @@ body {
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+.bg-notif {
+  background-color: #ecf3fc!important;
+}
+
+.btn-bg{
+  border-color: #4d90cc!important;
+  background-color: #4d90cc!important;
+}
+
+.btn-bg:hover{
+  border-color: #66afe9!important;
+  background-color: #66afe9!important;
+}
+.input-size {
+  font-size: 15px;
+}
+
+.table thead th {
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 3px solid #dee2e6;
+  font-size: 14px;
+  color: #62686e;
+  padding: 10px 5px;
+}
+
+.t-25 {
+  font-size: 20px;
+    letter-spacing: .2px;
+    color: #333;
+}
+
+@media only screen and (max-width: 700px) {
   .box-session {
     width: 100%;
     margin: auto;
     margin-top: 2rem;
+  }
+  .d-thead {
+    display: none;
+  }
+  .flex-tr {
+    display: flex;
+    width: 100%!important;
+    flex-direction: column;
+  }
+  .flex-tr td {
+    border: none!important;
+  }
+  #setting {
+    width: 100%!important;
   }
 }
