@@ -39,6 +39,26 @@ body {
   color: #6c757d;
 }
 
+.user-avatar {
+  width: 50px;
+}
+
+.dropdown-menu {
+    left: auto!important;
+    right: 0!important;
+}
+
+.dropdown-toggle::after {
+    display: none!important;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
 .side-menu {
   z-index: 100;
   margin-top: 4rem;
@@ -50,6 +70,15 @@ body {
   margin-top: 0!important;
 }
 
+.activation {
+  color: #4d90cc!important;
+  text-decoration: none;
+  /*background-color: #4d90cc08;*/
+}
+
+.activation:hover {
+  text-decoration: none;
+}
 
 .list-group .list-group-item a span i{
   font-size: 20px;

@@ -163,7 +163,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-md-9 bg-page main-content">
           <div class="bg-white my-5 shadow" id="btnActive">
             <ul class="border-0 list-group list-group-horizontal-md nav-tabs align-items-center" id="myTab" role="tablist">
@@ -276,6 +276,17 @@
         $('main').toggleClass('container');
       }
     });
+  </script>
+
+  <script type="text/javascript">
+    const currentLocation =location.href;
+    const menuItem = document.querySelectorAll('a');
+    const menuLength = menuItem.length
+    for (let i = 0; i < menuLength; i++) {
+      if (menuItem[i].href === currentLocation) {
+        menuItem[i].className = "activation"
+      }
+    }
   </script>
 </body>
 

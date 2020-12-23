@@ -74,7 +74,7 @@
 
             <div class="my-md-5">
               <div>
-                <ul class="list-group">
+                <ul class="list-group menu">
                   <li class="list-group-item border-0 px-2 py-md-3 py-md-3">
                     <a href="#" class="text-decoration-none align-items-center justify-content-between">
                       <span class="pr-md-3">
@@ -256,6 +256,16 @@
         $('main').toggleClass('container');
       }
     });
+  </script>
+  <script type="text/javascript">
+    const currentLocation =location.href;
+    const menuItem = document.querySelectorAll('a');
+    const menuLength = menuItem.length
+    for (let i = 0; i < menuLength; i++) {
+      if (menuItem[i].href === currentLocation) {
+        menuItem[i].className = "activation"
+      }
+    }
   </script>
 </body>
 
